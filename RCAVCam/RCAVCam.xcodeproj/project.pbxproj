@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001CB2D41CC726FC00285818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CB2D31CC726FC00285818 /* AppDelegate.swift */; };
+		001CB2DB1CC726FC00285818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001CB2DA1CC726FC00285818 /* Assets.xcassets */; };
+		001CB2DE1CC726FC00285818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001CB2DC1CC726FC00285818 /* LaunchScreen.storyboard */; };
+		001CB2E61CC7273500285818 /* RCPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CB2E51CC7273500285818 /* RCPreviewView.swift */; };
+		001CB2E91CC72FAC00285818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001CB2E71CC72FAC00285818 /* Main.storyboard */; };
+		001CB2EA1CC762B300285818 /* RCCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CB2D51CC726FC00285818 /* RCCameraViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001CB2D01CC726FC00285818 /* RCAVCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCAVCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001CB2D31CC726FC00285818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001CB2D51CC726FC00285818 /* RCCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCCameraViewController.swift; sourceTree = "<group>"; };
+		001CB2DA1CC726FC00285818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001CB2DD1CC726FC00285818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001CB2DF1CC726FC00285818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001CB2E51CC7273500285818 /* RCPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCPreviewView.swift; sourceTree = "<group>"; };
+		001CB2E81CC72FAC00285818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001CB2CD1CC726FC00285818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001CB2C71CC726FC00285818 = {
+			isa = PBXGroup;
+			children = (
+				001CB2D21CC726FC00285818 /* RCAVCam */,
+				001CB2D11CC726FC00285818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001CB2D11CC726FC00285818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001CB2D01CC726FC00285818 /* RCAVCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001CB2D21CC726FC00285818 /* RCAVCam */ = {
+			isa = PBXGroup;
+			children = (
+				001CB2D31CC726FC00285818 /* AppDelegate.swift */,
+				001CB2D51CC726FC00285818 /* RCCameraViewController.swift */,
+				001CB2E51CC7273500285818 /* RCPreviewView.swift */,
+				001CB2DA1CC726FC00285818 /* Assets.xcassets */,
+				001CB2DC1CC726FC00285818 /* LaunchScreen.storyboard */,
+				001CB2E71CC72FAC00285818 /* Main.storyboard */,
+				001CB2DF1CC726FC00285818 /* Info.plist */,
+			);
+			path = RCAVCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001CB2CF1CC726FC00285818 /* RCAVCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001CB2E21CC726FC00285818 /* Build configuration list for PBXNativeTarget "RCAVCam" */;
+			buildPhases = (
+				001CB2CC1CC726FC00285818 /* Sources */,
+				001CB2CD1CC726FC00285818 /* Frameworks */,
+				001CB2CE1CC726FC00285818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCAVCam;
+			productName = RCAVCam;
+			productReference = 001CB2D01CC726FC00285818 /* RCAVCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001CB2C81CC726FC00285818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Robin;
+				TargetAttributes = {
+					001CB2CF1CC726FC00285818 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 001CB2CB1CC726FC00285818 /* Build configuration list for PBXProject "RCAVCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001CB2C71CC726FC00285818;
+			productRefGroup = 001CB2D11CC726FC00285818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001CB2CF1CC726FC00285818 /* RCAVCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001CB2CE1CC726FC00285818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001CB2E91CC72FAC00285818 /* Main.storyboard in Resources */,
+				001CB2DE1CC726FC00285818 /* LaunchScreen.storyboard in Resources */,
+				001CB2DB1CC726FC00285818 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001CB2CC1CC726FC00285818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001CB2D41CC726FC00285818 /* AppDelegate.swift in Sources */,
+				001CB2EA1CC762B300285818 /* RCCameraViewController.swift in Sources */,
+				001CB2E61CC7273500285818 /* RCPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001CB2DC1CC726FC00285818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001CB2DD1CC726FC00285818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		001CB2E71CC72FAC00285818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001CB2E81CC72FAC00285818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001CB2E01CC726FC00285818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001CB2E11CC726FC00285818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001CB2E31CC726FC00285818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCAVCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mRocker.RCAVCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		001CB2E41CC726FC00285818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCAVCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mRocker.RCAVCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001CB2CB1CC726FC00285818 /* Build configuration list for PBXProject "RCAVCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001CB2E01CC726FC00285818 /* Debug */,
+				001CB2E11CC726FC00285818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001CB2E21CC726FC00285818 /* Build configuration list for PBXNativeTarget "RCAVCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001CB2E31CC726FC00285818 /* Debug */,
+				001CB2E41CC726FC00285818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001CB2C81CC726FC00285818 /* Project object */;
+}
