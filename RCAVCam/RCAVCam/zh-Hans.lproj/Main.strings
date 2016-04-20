@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Tap to resume"; ObjectID = "FZr-Ip-7WL"; */
+"点击恢复" = "Tap to resume";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "eRT-dK-6dM"; */
+"录像" = "Record";
+
+/* Class = "UIButton"; normalTitle = "Camera"; ObjectID = "rUJ-G6-RPv"; */
+"相机" = "Camera";
+
+/* Class = "UIButton"; normalTitle = "Still"; ObjectID = "uCj-6P-mHF"; */
+"拍照" = "Still";
+
+/* Class = "UILabel"; text = "Camera Unavailable"; ObjectID = "zf0-db-esM"; */
+"相机无法使用" = "Camera Unavailable";
